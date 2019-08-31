@@ -1,4 +1,4 @@
-title: Minimal theme
-description: Minimal is a theme for GitHub Pages.
-google_analytics:
-remote-theme: pages-themes/minimal
+title: Minimal theme	title: Minimal theme
+description: Minimal is a theme for GitHub Pages.	description: Minimal is a theme for GitHub Pages.
+google_analytics:	google_analytics:
+theme: just-the-docs
