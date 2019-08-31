@@ -4,22 +4,21 @@ In this lab we will be creating a mobile application which replicates the functi
 
 Mobile Application Setup
 
-**Step 1: Click on new mobile application**
+## Step 1: Click on new mobile application**
 
 ![image2019-8-25_17-12-24.png](assets/image2019-8-25_17-12-24-7290694.png)
 
-**Step 2 : Choose vertical layout and key in the following navigation items**
+## Step 2 : Choose vertical layout and key in the following navigation items**
 
 ![image2019-8-25_17-13-21.png](assets/image2019-8-25_17-13-21-7290694.png)
 
-**Step 3: Choose page template list**
+## Step 3: Choose page template list**
 
 ![image2019-8-25_17-14-24.png](assets/image2019-8-25_17-14-24-7290694.png)
 
 Products page 
 
-**Step 1 : Map the list view on the products page to the products business object**
-
+##### Step 1 : Map the list view on the products page to the products business object
 
 
 ![image2019-8-25_17-18-43.png](assets/image2019-8-25_17-18-43-7290694.png)
@@ -28,7 +27,7 @@ Products page
 
 ![image2019-8-25_17-20-10.png](assets/image2019-8-25_17-20-10-7290694.png)
 
-**Step 2: Remove the URL field and replace it with an image**
+#### Step 2: Remove the URL field and replace it with an image
 
 [[ $current.data.url ]]
 
