@@ -1,312 +1,146 @@
-* TOC
-{:toc}
-
 # Introduction
 
-Build a complete web application using visual builder.
+The focus of this lab session is connecting to third party rest service and building features on top of those. This is a continuation of [lab 1 exercise](lab1). If you have not completed Lab 1, please click on this link and complete [lab 1](lab1).
 
-# Initial Configuration Wizard
+The first screen we are going to build in this session is to display a list of orders from a third party rest endpoint. Next we will build a details page, that will list order details.
 
-Lets get started by logging into visual builder account. Lets get started by creating a new application. 
+The rest endpoints used in this exercise are
 
-##### Step 1: Click **New Application**  button to start the application create wizard.
+1. Order List : https://apex.oracle.com/pls/apex/venks/om/orders
+2. Order Header : https://apex.oracle.com/pls/apex/venks/om/order/10145
+3. Order Lines : https://apex.oracle.com/pls/apex/venks/om/orders/10145
 
-![img](assets/LabGuide100-f9530cdb-20190829225248630.png)
+# Create order listing from third party rest endpoint
 
-![image2019-8-21_9-6-20.png](assets/image2019-8-21_9-6-20-7144997.png)
+##### Step 1 : Click on Service Connection
 
+![img](assets/image2019-8-24_21-4-26.png)
 
+##### Step 2: Click on +Service Connection
 
-##### Step 2: Click on change template. Choose the sample component starter template.
+![img](assets/image2019-8-24_21-5-51.png)
 
-![image2019-8-21_19-46-45.png](assets/image2019-8-21_19-46-45-7145013.png)
+##### Step 3: Choose Define by endpoint
 
-##### Step 3: Choose Sample Component Starter Template
+![img](assets/image2019-8-24_21-6-57.png)
 
-![img](assets/image2019-8-21_9-17-42.png)
+##### Step 4: Copy paste the following URL in the text box to connect to a third party endpoint.
 
-##### Step 4: Click Finish
+https://apex.oracle.com/pls/apex/venks/om/orders
 
-![img](assets/image2019-8-21_19-49-33.png)
+Since we are going to retrieve a collection of orders, ensure that Get Many is chosen.
 
-- You now have a new application, in which you can begin building pages and adding data.
-- We will begin by creating a web application
+![img](assets/image2019-8-24_21-8-16.png)
 
-![img](assets/image2019-8-21_19-52-52.png)
+##### Step 5: Give a suitable name (getOrders)
 
-##### Step 5: Choose navigation template
+![img](assets/image2019-8-24_21-9-45.png)
 
-Upon click on web application, you will now the ability to choose the default web application navigation template. Please choose the one with navigation items.
+##### Step 6: Click on Test → Send and then Copy Response to Body → Create 
 
-![img](assets/image2019-8-21_9-20-14.png)
+![img](assets/image2019-8-24_21-12-22.png)
 
-Lets change the labels to
+##### Step 7: Navigate back to the orders page and drag & drop a table from the component palette as shown below
 
-- Products
-- Orders
-- Reports
+![img](assets/order-table.gif)
 
-##### Step 6 : The application is now ready. You are presented with a complete visual development environment.  Click on the "run" icon on the top right hand side to launch the application.
+##### Step 8: Now it is time to connect the table data to the service connection that we just defined. Refer to the flow below.
 
-![img](assets/image2019-8-21_19-56-20.png)
+![img](assets/order-service-connection.gif)
 
-Step 7: Clicking on run should launch an additional browser tab with the basic app. It should look something like this
+##### Step 9: Run your application. 
 
-![img](assets/image2019-8-21_19-57-54.png)
+The orders page should now display a list of orders, which it is pulling from a remote service.
 
-# Import Business Data
+![img](assets/image2019-8-24_21-27-13.png)
 
+# Create a detail page from a third party rest endpoint.
 
+Similar to lab 1 where we had created a detail page, we will be creating a order detail page which is pulling the data from a third party rest end point. Before we begin, we will have to define two service connections
 
-One of the first step in the project will be to load the business data that the application relies on to get started with the data model. In our case, we are going to load the product categories and product list as a data import into Visual Builder. This will create the necessary business objects, which can then be used in the UI layer.
+1. Service Connection to retrieve Order Header Data : [https://apex.oracle.com/pls/apex/venks/om/order](https://apex.oracle.com/pls/apex/venks/om/orders/10145)/{order_number}
+2. Service Connection to retrieve Order Lines Data : [https://apex.oracle.com/pls/apex/venks/om/orders/](https://apex.oracle.com/pls/apex/venks/om/orders/10145){order_number}
 
-- Product List CSV : [products.csv](assets/products.csv)
+##### Step 1 : Create a new service connection from rest endpoint using the following url
 
-Before we can import this data as business objects, the first step would be create the underlying BO's. So lets go through that process.
+https://apex.oracle.com/pls/apex/venks/om/order/{order_number} 
 
-##### Step 1 : First click on business objects icon, indicated by number 1 screen shot below.
+The order_number is a parameter that we are going to pass to the endpoint.
 
-- Upon clicking on business objects a list of business objects will be displayed. Since this is a new application, there are none.
-- Now click on the hamburger icon indicated by number 2 and then click data manager.
+![img](assets/image2019-8-24_22-2-24.png)
 
+##### Step 2: Name the service connection getOrderHeader
 
+![img](assets/image2019-8-24_22-4-10.png)
 
-![img](assets/image2019-8-21_20-2-25.png)
+##### Step 3: Click on Test → Provide a value for the order_number parameter → Click Send → Click Copy Response Body → Click Create
 
-The data manager should open up at this point. The screen will look something like this.
+![img](assets/image2019-8-24_22-5-28.png)
 
-##### Step 2 : Click on Import Business Objects. Choose the following file to load the product data set
+##### Step 4: Navigate back to the order page and click on table in the page structure 
 
-- [products.csv](assets/products.csv)
+![img](assets/image2019-8-24_22-7-49.png)
 
-![img](assets/image2019-8-21_20-22-12.png)
+##### Step 5: Click on add detail page as shown below
 
-Click through the business objects import wizard.
+![img](assets/image2019-8-24_22-9-18.png)
 
-**Step 1 :** 
+##### Step 6: Choose the service connection we just created from the list → Create/Nextg
 
-![img](assets/image2019-8-21_20-23-28.png)
+![img](assets/image2019-8-24_22-10-8.png)
 
-**Step 2:** 
+##### Step 7: Choose all the fields from endpoint → Change Button Label to "Order Details" → Page title to "Order Details" → Page Name to "order-details" → Click Finish
 
-![img](assets/image2019-8-21_20-23-41.png)
+![img](assets/image2019-8-24_22-12-11.png)
 
-**Step 3:** 
+Visual Builder will now create a new page called order details. In addition a new button will be added on top of the orders page. Select an order and click on order details.
 
-![img](assets/image2019-8-21_20-56-23.png)
+You should be navigated to the order details page. The order header information should be displayed based on the order you selected in the previous page. 
 
+# Add order lines from service connection to order details page
 
+The next action item is to have order line details to the order details page. First we will define a service endpoint that connects to order lines rest endpoint.
 
-The business objects with then name Products should now be created. Click on the business object and observe the following sections
+##### Step 1 : Add a new service connection. Ensure that the action hint is set to many. Use the following url
 
-![img](assets/image2019-8-21_20-59-19.png)
+https://apex.oracle.com/pls/apex/venks/om/orders/{order_number}
 
-- Overview : Name , label etc of the business object
-- Fields : All the fields of the imported BO.
-- Security : Role based security definition for the BO
-- Business Rules: This is place one can define the rules
-- EndPoints : Rest Endpoints for the BO that were automatically created
-- Data : Data Browser to view the data in the BO
 
-------
 
-# Adding List View to Web Application
+![img](assets/image2019-8-24_22-25-25.png)
 
-##### Step 1 : Click on orders in the web application view
+##### Step 2 : Name the service endpoint getOrderLines
 
-![img](assets/image2019-8-22_21-3-55.png)
+![img](assets/image2019-8-24_22-27-0.png)
 
-##### Step 2 : Scroll down in the component palette till you locate List View. Drag and drop the list view onto the application canvas.
+##### Step 3 : Follow the sequence indicated below 
 
-![img](assets/ListView.gif) 
+![img](assets/image2019-8-24_22-28-24.png)
 
-##### Step 3: Click on add data 
+##### Step 4: Navigate to the order details page and drag / drop a table component on the page as shown below.
 
-![img](assets/image2019-8-22_21-16-18.png)
 
-##### Step 4: Choose the business object that we just created
 
-![img](assets/image2019-8-21_21-11-33.png)
+![img](assets/order-details-lines-drag.gif)
 
-![img](assets/image2019-8-21_21-12-27.png)
+##### Step 4: Select on the newly added table in page structure and then click add data as shown below
 
-##### Step 5 : Bind variables to the slots in the list view. Add URL to slot one. You can do that by clicking on the checkbox or dragging it into that slot. Since we want this to be displayed an an image, click on image from the drop down as indicated.
+![img](assets/Order-Lines-SDP-Mapping.gif)
 
+##### Step 4: Map the data to the newly created order lines service endpoint. Click Next
 
+![img](assets/image2019-8-24_22-38-1.png)
 
-![img](assets/image2019-8-22_10-21-21.png)
+##### Step 5: Choose the fields to display and set the primary key. Click Next
 
-##### Step 6: Choose other fields like product name, price , rating and category. Click through and hit finish.
+![img](assets/image2019-8-24_22-39-5.png)
 
-![img](assets/image2019-8-22_10-23-34.png)
+##### Step 6 : Map the order number variable with the parameter to the service connection as show below. Click finish.
 
+![img](assets/map-order-number.gif)
 
+##### Step 7 : Click run and navigate to orders page. Choose an order and click on order details. 
 
-# Styling and Composite Listview
+You should now be able to see the order lines below the order header section.
 
-We want to display the image instead of the URL in the list view. So once you are back in visual designer , search for image in the component palette 
-
-##### Step1: Drag and Drop image from the component palette into the canvas, right above the URL item. Copy the URL data and bind that to the Source URL under the image as shown in the gif animation below.
-
-Set the image width to 100. URL To : [[ $current.data.url ]]
-
-Delete the Text entry for url, since we don't need that any longer.
-
-Run the page and ensure that it is rendering properly.
-
-![img](assets/IMage_list_view.gif)
-
-Hit run on the top right hand side of the page to view how the page renders after making this change.
-
-![img](assets/image2019-8-22_16-23-3.png)
-
-
-
-##### Step 2: Changing the rating display to a rating component. 
-
-Instead of displaying the rating as a number, we can use the built in rating gauge component to display it as star rating. In order to do that, drag the rating component from the component and drag it above the rating text field.
-
-![img](assets/rating.gif)
-
-##### Step 3: Set data value for rating gauge to [[ $current.data.rating ]]
-
-![img](assets/image2019-8-22_16-27-48.png)
-
-Now the rating should be displayed as star component instead of a number as shown below.
-
-![img](assets/image2019-8-22_16-28-59.png)
-
-
-
-##### Step 4: We would also like to change the price filed to have a "$" symbol. 
-
-To do that change the value to [[ '$' + $current.data.price ]] as shown below
-
-![img](assets/image2019-8-22_16-30-33.png)
-
-
-
-# Adding an edit page to edit the product listing
-
-We would now like to add some screens to allow us to modify/edit the values being displayed in the list. Following are the steps to create an edit page.
-
-##### Step 1: Click on the list view and then click on Quick Start Icon
-
-![img](assets/image2019-8-22_16-34-22.png)
-
-##### Step 2: Click on Add Edit Page from the options presented
-
-![img](assets/image2019-8-22_16-36-24.png)
-
-##### Step 3: Choose Products from the list of BO's presented
-
-![img](assets/image2019-8-22_16-37-38.png)
-
-##### Step 4: Choose the fields you want to make editable.
-
-![img](assets/image2019-8-22_16-38-31.png)
-
-Visual builder will automatically build a new page with the required logic and routing to create a seamless editing flow. 
-
-Observe the edit product page that was generated by Visual Builder
-
-![img](assets/image2019-8-22_16-40-23.png)
-
-At this point there are now additional steps. You are ready to edit the contents of the list view. 
-
-There should be a Edit Products Button on top the page. 
-
-![img](assets/image2019-8-22_16-41-19.png)
-
-First click on one of the products to select it and then click on edit products button to reveal the edit products page.
-
-![img](assets/image2019-8-22_16-42-24.png)
-
-Observe that Visual Builder is smart in picking up the appropriate control to display based on the data type. Make some edits and hit save. You should be take back to the products page and the page should get refreshed with the new values.
-
-# Adding a create page to add new products
-
-Now we will add a create products page, which will allow us to add new products to the product listing.
-
-##### Step1 : Click on List View and then click on quick start icon
-
-![img](assets/image2019-8-22_16-53-55.png)
-
-##### Step 2: Click on add create page
-
-
-
-![img](assets/image2019-8-22_16-54-25.png)
-
-##### Step 3: Choose products from the list of Business Objects
-
-![img](assets/image2019-8-22_16-55-23.png)
-
-##### Step 4: Choose the following fields from the list of values
-
-![img](assets/image2019-8-22_16-56-10.png)
-
-##### Step 5: Now run the page and you should see a new button for create product
-
-![img](assets/image2019-8-22_16-57-56.png)
-
-##### Step 6: Click on create products to add new products
-
-![img](assets/image2019-8-22_16-59-45.png)
-
-Upon saving you should be taken back to the products listing page. Observe that the product you just added is now visible in the product listing page.
-
-# Adding a delete button
-
-##### Step1 : Click on List View and then click on quick start icon
-
-![img](https://confluence.oraclecorp.com/confluence/download/attachments/1412395572/image2019-8-22_16-54-25.png?version=1&modificationDate=1566532495000&api=v2)
-
-##### Step 2: Click on delete action
-
-![img](assets/image2019-8-22_20-16-12.png)
-
-##### Step 3: Choose Products BO and click finish
-
-You should now see a delete button on the screen. First select a list item and then hit delete to delete the item.
-
-![img](assets/image2019-8-22_20-17-45.png)
-
-
-
-# Change the layout of list view 
-
-By default the listview stretches to take the whole width of the screen. We want to reduce the width of the listview to improve the user experience. There are a few options here
-
-- Reduce the width
-- Display in a card layout.
-
-Lets get started by reducing the width. 
-
-##### Step 1: Set the width of the list view to take 50% of the screen.
-
-Set the class of Flex-Row to "oj-md-6"
-
-![img](assets/image2019-8-23_13-25-52.png)
-
-Now the width of the product list should shrink to 50% of the screen width.
-
-
-
-![img](assets/image2019-8-23_13-27-36.png)
-
-
-
-Changing the layout to card view
-
-##### Step 2: Remove the styling done in step 1 above.
-
-##### Step 3: Click on list view and then choose "Card Layout" from property inspector
-
-![img](assets/image2019-8-23_13-29-38.png)
-
-The layout of the list view should change from a vertical layout to a card layout as shown in the screen shot below.
-
-
-
-![img](assets/image2019-8-23_13-30-43.png)
+![img](assets/order-details-flow.gif)
