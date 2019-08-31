@@ -5,6 +5,6 @@ github:
   zip_url: http://example.com/download.zip
   another_url: another value
   lab1_url: another value
-  lab2_url: another value
-  lab3_url: another value
-  home_url: another value
+  lab2_url: /lab2
+  lab3_url: /lab3
+  home_url: /index
