@@ -1,3 +1,8 @@
+## Table of contents
+
+* TOC
+{:toc}
+
 # Introduction
 
 The focus of this lab session is connecting to third party rest service and building features on top of those. This is a continuation of [lab 1 exercise](lab1). If you have not completed Lab 1, please click on this link and complete [lab 1](lab1).
