@@ -11,9 +11,9 @@ The first screen we are going to build in this session is to display a list of o
 
 The rest endpoints used in this exercise are
 
-1. Order List : https://apex.oracle.com/pls/apex/venks/om/orders
-2. Order Header : https://apex.oracle.com/pls/apex/venks/om/order/10145
-3. Order Lines : https://apex.oracle.com/pls/apex/venks/om/orders/10145
+1. Order List : [https://apex.oracle.com/pls/apex/venks/om/orders](https://apex.oracle.com/pls/apex/venks/om/orders)
+2. Order Header :[https://apex.oracle.com/pls/apex/venks/om/order/10145](https://apex.oracle.com/pls/apex/venks/om/order/10145)
+3. Order Lines : [https://apex.oracle.com/pls/apex/venks/om/orders/10145](https://apex.oracle.com/pls/apex/venks/om/orders/10145)
 
 # Create order listing from third party rest endpoint
 
