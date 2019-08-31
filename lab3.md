@@ -30,7 +30,7 @@ https://apex.oracle.com/pls/apex/venks/reports/yearlysales
 
 
 
-##### Step 2: Make sure that you hit the test tab and copy the response body before clicking create.
+#### Step 2: Make sure that you hit the test tab and copy the response body before clicking create.
 
 
 
@@ -38,7 +38,7 @@ https://apex.oracle.com/pls/apex/venks/reports/yearlysales
 
 
 
-##### Step 3: Drag and Drop a bar chart to the reports page
+#### Step 3: Drag and Drop a bar chart to the reports page
 
 
 
@@ -46,7 +46,7 @@ https://apex.oracle.com/pls/apex/venks/reports/yearlysales
 
 
 
-##### Step 4: Click on add data and choose the service connection we just defined in step 1
+#### Step 4: Click on add data and choose the service connection we just defined in step 1
 
 
 
@@ -62,7 +62,7 @@ Ensure that you choose all the fields. Map the Value(Y Axis) to total field, Lab
 
 
 
-##### Step 5: Now you should have a bar chart on the reports page
+#### Step 5: Now you should have a bar chart on the reports page
 
 
 
@@ -70,7 +70,7 @@ Ensure that you choose all the fields. Map the Value(Y Axis) to total field, Lab
 
 
 
-##### Step 6: Set the width to 100%, so the chart takes the full width of the container
+#### Step 6: Set the width to 100%, so the chart takes the full width of the container
 
 
 
@@ -80,11 +80,11 @@ Ensure that you choose all the fields. Map the Value(Y Axis) to total field, Lab
 
 
 
-**# Add a pie chart to display total sales by category**
+## Add a pie chart to display total sales by category**
 
 
 
-##### Step 1: Drag and drop a pie chart from the components to the page
+#### Step 1: Drag and drop a pie chart from the components to the page
 
 
 
@@ -92,7 +92,7 @@ Ensure that you choose all the fields. Map the Value(Y Axis) to total field, Lab
 
 
 
-##### Step 2: Now we will reference the service connection defined before as source of data for the pie chart
+#### Step 2: Now we will reference the service connection defined before as source of data for the pie chart
 
 
 
@@ -104,7 +104,7 @@ Ensure that you choose all the fields. Map the Value(Y Axis) to total field, Lab
 
 
 
-##### Step 3: Check the rendered Pie Chart
+#### Step 3: Check the rendered Pie Chart
 
 
 
@@ -112,7 +112,7 @@ Next we want to ensure both the chart are same width and take up 6 columns in a 
 
 
 
-##### Step 4: Change the class for both the chart to oj-md-6
+#### Step 4: Change the class for both the chart to oj-md-6
 
 
 
@@ -124,7 +124,7 @@ Now both the charts should be of the same width and properly aligned on the scre
 
 
 
-##### Chart options**
+## Chart options**
 
 
 
