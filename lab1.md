@@ -1,4 +1,8 @@
-#Introduction
+## Table of contents
+
+* TOC
+{:toc}
+# Introduction
 
 Build a complete web application using visual builder.
 
