@@ -60,7 +60,7 @@ Step 7: Clicking on run should launch an additional browser tab with the basic a
 
 One of the first step in the project will be to load the business data that the application relies on to get started with the data model. In our case, we are going to load the product categories and product list as a data import into Visual Builder. This will create the necessary business objects, which can then be used in the UI layer.
 
-- Product List CSV : [products.csv](https://confluence.oraclecorp.com/confluence/download/attachments/1412395572/products.csv?version=1&modificationDate=1566532483000&api=v2)
+- Product List CSV : [products.csv](assets/products.csv)
 
 Before we can import this data as business objects, the first step would be create the underlying BO's. So lets go through that process.
 
@@ -77,7 +77,7 @@ The data manager should open up at this point. The screen will look something li
 
 ##### Step 2 : Click on Import Business Objects. Choose the following file to load the product data set
 
-- [products.csv](https://confluence.oraclecorp.com/confluence/download/attachments/1412395572/products.csv?version=1&modificationDate=1566532483000&api=v2)
+- [products.csv](assets/products.csv)
 
 ![img](assets/image2019-8-21_20-22-12.png)
 
