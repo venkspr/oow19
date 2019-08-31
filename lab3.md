@@ -140,4 +140,4 @@ Refer to the image below to see how they change the rendering of the chart.
 
 
 
-Congratulations, you have completed lab 3. [Click here to goto Lab 4](lab4)lab4)
+Congratulations, you have completed lab 3. [Click here to goto Lab 4](lab4)
