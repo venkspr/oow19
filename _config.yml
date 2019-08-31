@@ -1,4 +1,4 @@
 title: Minimal theme
 description: Minimal is a theme for GitHub Pages.
 google_analytics:
-remote-theme: pmarsceill/just-the-docs
+remote-theme: pages-themes/minimal
