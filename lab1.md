@@ -1,12 +1,3 @@
----
-title: Lab1
-layout: page
-nav_order: 3
-permalink: "lab1"
----
-
-{: .no_toc }
-
 ## Table of contents
 
 1. * TOC
