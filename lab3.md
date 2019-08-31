@@ -44,8 +44,6 @@ https://apex.oracle.com/pls/apex/venks/reports/yearlysales
 
 ![img](assets/image2019-8-25_15-26-4.png)
 
-
-
 #### Step 4: Click on add data and choose the service connection we just defined in step 1
 
 ![img](assets/image2019-8-25_15-27-45.png)
@@ -86,7 +84,7 @@ Now both the charts should be of the same width and properly aligned on the scre
 
 ![img](assets/image2019-8-25_16-37-14.png)
 
-## Chart options**
+## Chart options
 There are several configuration options available for the charts. You can declaratively set some of those via property palette.
 
 Refer to the image below to see how they change the rendering of the chart.
