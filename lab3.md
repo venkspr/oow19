@@ -1,10 +1,6 @@
-**# Lab3**
 
 
-
-**# Introduction**
-
-
+# Introduction
 
 In this lab we will be adding some charts to the reports page and learn about the visualization capabilities of Visual Builder. We will be consuming data from a remote rest endpoint. 
 

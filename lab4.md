@@ -1,4 +1,4 @@
-Introduction
+# Introduction
 
 In this lab we will be creating a mobile application which replicates the functionality that we created for webapp. This mobile application can be distributed as PWA or native iOS or Android Application.
 

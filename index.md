@@ -13,18 +13,26 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 
 **SPEAKERS**
 
-Michael Ferrante, Principal Product Manager, Oracle
+* Michael Ferrante, Principal Product Manager, Oracle
 
-Sherry Yu, Senior Principal Product Manager, Oracle 
+* Sherry Yu, Senior Principal Product Manager, Oracle 
 
-Venkatesh Puliur, Senior Principal Product Manager, Oracle
+* Venkatesh Puliur, Senior Principal Product Manager, Oracle
 
-Code One Tracks: Cloud Native, Developer Tools, Modern Web
+* Code One Tracks: Cloud Native, Developer Tools, Modern Web
 
-Session Type: HOL (Hands-on Lab) Session
+* Session Type: HOL (Hands-on Lab) Session
 
-Tuesday, September 17, 12:30 PM - 02:30 PM
+* Tuesday, September 17, 12:30 PM - 02:30 PM
 
 **CODEONE Link**
 
 https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752
+
+**Labs**
+
+* [Lab1](lab1) - **Basic Setup, BO Import & List Page based on BO**
+* [Lab2](lab2) - **Service Connection & Views based on those**
+* [Lab3](lab3) - **Visualization Basics**
+* [Lab4](lab4) - **Mobile App**
+
