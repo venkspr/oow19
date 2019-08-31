@@ -1,3 +1,6 @@
 title: Minimal theme	
 description: Minimal is a theme for GitHub Pages.	
 theme: jekyll-theme-dinky
+github:
+  zip_url: http://example.com/download.zip
+  another_url: another value
