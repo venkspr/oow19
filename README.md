@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Open World 2019 - Oracle Visual Builder Hands-on Lab - BYOL [HOL2752]
+**PLEASE NOTE: YOU MUST BRING YOUR OWN LAPTOP (BYOL) TO PARTICIPATE IN THIS HANDS-ON LAB.**
+In this hands-on lab, experience productive visual development with a REST/HTML/JavaScript stack. Leverage Oracle Visual Builder to create mobile and web apps that leverage the cutting-edge UI capabilities of Oracle JavaScript Extension Toolkit (Oracle JET). Also see how to simplify development with a visual approach that drastically reduces the mundane coding of building JavaScript apps.
 
-You can use the [editor on GitHub](https://github.com/venkspr/oow19/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**SPEAKERS**
+* Michael Ferrante, Principal Product Manager, Oracle
+* Sherry Yu, Senior Principal Product Manager, Oracle 
+* Venkatesh Puliur, Senior Principal Product Manager, Oracle
+* Code One Tracks: Cloud Native, Developer Tools, Modern Web
+* Session Type: HOL (Hands-on Lab) Session
+* Tuesday, September 17, 12:30 PM - 02:30 PM
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**CODEONE Link**
+[https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752](https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752)
 
-### Markdown
+**Labs**
+* [Lab1](lab1) - **Basic Setup, BO Import & List Page based on BO**
+* [Lab2](lab2) - **Service Connection & Views based on those**
+* [Lab3](lab3) - **Visualization Basics**
+* [Lab4](lab4) - **Mobile App**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/venkspr/oow19/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# [Click here to go get started with the lab](index)
