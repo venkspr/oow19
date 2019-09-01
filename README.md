@@ -14,9 +14,9 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 [https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752](https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752)
 
 **Labs**
-* [Lab1](lab1) - **Basic Setup, BO Import & List Page based on BO**
-* [Lab2](lab2) - **Service Connection & Views based on those**
-* [Lab3](lab3) - **Visualization Basics**
-* [Lab4](lab4) - **Mobile App**
+* [Lab1](https://venkspr.github.io/oow19/lab1) - **Basic Setup, BO Import & List Page based on BO**
+* [Lab2](https://venkspr.github.io/oow19/lab2) - **Service Connection & Views based on those**
+* [Lab3](https://venkspr.github.io/oow19/lab3) - **Visualization Basics**
+* [Lab4](https://venkspr.github.io/oow19/lab4) - **Mobile App**
 
 # [Click here to go get started with the lab](https://venkspr.github.io/oow19/)
