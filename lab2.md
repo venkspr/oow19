@@ -67,8 +67,9 @@ Similar to lab 1 where we had created a detail page, we will be creating a order
 2. Service Connection to retrieve Order Lines Data : [https://apex.oracle.com/pls/apex/venks/om/orders/](https://apex.oracle.com/pls/apex/venks/om/orders/10145){order_number}
 
 ## Step 1 : Create a new service connection from rest endpoint using the following url
-
+```
 https://apex.oracle.com/pls/apex/venks/om/order/{order_number} 
+```
 
 The order_number is a parameter that we are going to pass to the endpoint.
 
@@ -107,9 +108,9 @@ You should be navigated to the order details page. The order header information 
 The next action item is to have order line details to the order details page. First we will define a service endpoint that connects to order lines rest endpoint.
 
 ## Step 1 : Add a new service connection. Ensure that the action hint is set to many. Use the following url
-
+```
 https://apex.oracle.com/pls/apex/venks/om/orders/{order_number}
-
+```
 
 ![img](assets/image2019-8-24_22-25-25.png)
 

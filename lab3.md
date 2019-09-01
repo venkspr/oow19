@@ -9,8 +9,10 @@ In this lab we will be adding some charts to the reports page and learn about th
 
 # Adding a bar chart visualizing annual sales
 
-## Step 1 : Create a service connection to remote rest endpoint**
+## Step 1 : Create a service connection to remote rest endpoint
+```
 https://apex.oracle.com/pls/apex/venks/reports/yearlysales
+```
 
 ![img](assets/image2019-8-25_15-22-13.png)
 

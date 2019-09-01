@@ -9,15 +9,15 @@ In this lab we will be creating a mobile application which replicates the functi
 
 # Mobile Application Setup
 
-## Step 1: Click on new mobile application**
+## Step 1: Click on new mobile application
 
 ![image2019-8-25_17-12-24.png](assets/image2019-8-25_17-12-24-7290694.png)
 
-## Step 2 : Choose vertical layout and key in the following navigation items**
+## Step 2 : Choose vertical layout and key in the following navigation items
 
 ![image2019-8-25_17-13-21.png](assets/image2019-8-25_17-13-21-7290694.png)
 
-## Step 3: Choose page template list**
+## Step 3: Choose page template list
 
 ![image2019-8-25_17-14-24.png](assets/image2019-8-25_17-14-24-7290694.png)
 
@@ -34,8 +34,9 @@ In this lab we will be creating a mobile application which replicates the functi
 
 ## Step 2: Remove the URL field and replace it with an image
 
+```
 [[ $current.data.url ]]
-
+```
 Delete the URL text item from the page structure
 
 ![image2019-8-25_17-22-55.png](assets/image2019-8-25_17-22-55-7290694.png)
@@ -45,7 +46,9 @@ Delete the URL text item from the page structure
 ![image2019-8-25_17-24-27.png](assets/image2019-8-25_17-24-27-7290694.png)
 
 ## Step 4: Drag & Drop rating gauge as shown in the screenshot below. Set the data value to [[ $current.data.rating ]]
-
+```
+[[ $current.data.rating ]]
+```
 Delete the text field rendering of rating.
 
 ![image2019-8-25_17-27-16.png](assets/image2019-8-25_17-27-16-7290694.png)
