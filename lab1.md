@@ -94,8 +94,6 @@ Click through the business objects import wizard.
 
 ![img](assets/image2019-8-21_20-56-23.png)
 
-
-
 The business objects with the name Products should now be created. Click on the business object and observe the following sections
 
 ![img](assets/image2019-8-21_20-59-19.png)
@@ -131,15 +129,11 @@ We will now add a list view to the products page to display the products that we
 
 ## Step 5 : Bind variables to the slots in the list view. Add URL to slot one. You can do that by clicking on the checkbox or dragging it into that slot. Since we want this to be displayed an an image, click on image from the drop down as indicated.
 
-
-
 ![img](assets/image2019-8-22_10-21-21.png)
 
 ## Step 6: Choose other fields like product name, price , rating and category. Click through and hit finish.
 
 ![img](assets/image2019-8-22_10-23-34.png)
-
-
 
 # Styling and Composite Listview
 
@@ -158,7 +152,6 @@ Run the page and ensure that it is rendering properly.
 Hit run on the top right hand side of the page to view how the page renders after making this change.
 
 ![img](assets/image2019-8-22_16-23-3.png)
-
 
 ## Step 2: Changing the rating display to a rating component. 
 
@@ -179,8 +172,6 @@ Now the rating should be displayed as star component instead of a number as show
 To do that change the value to [[ '$' + $current.data.price ]] as shown below
 
 ![img](assets/image2019-8-22_16-30-33.png)
-
-
 
 # Adding an edit page to edit the product listing
 
@@ -231,8 +222,6 @@ Now we will add a create products page, which will allow us to add new products 
 
 ## Step 2: Click on add create page
 
-
-
 ![img](assets/image2019-8-22_16-54-25.png)
 
 ## Step 3: Choose products from the list of Business Objects
@@ -269,7 +258,6 @@ You should now see a delete button on the screen. First select a list item and t
 
 ![img](assets/image2019-8-22_20-17-45.png)
 
-
 # Change the layout of list view 
 
 By default the listview stretches to take the whole width of the screen. We want to reduce the width of the listview to improve the user experience. There are a few options here
@@ -287,9 +275,7 @@ Set the class of Flex-Row to "oj-md-6"
 
 Now the width of the product list should shrink to 50% of the screen width.
 
-
 ![img](assets/image2019-8-23_13-27-36.png)
-
 
 Changing the layout to card view
 
