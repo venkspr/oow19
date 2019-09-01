@@ -5,7 +5,7 @@
 
 # Introduction
 
-In this lab we will be creating a mobile application which replicates the functionality that we created for webapp. This mobile application can be distributed as PWA or native iOS or Android Application.
+In this lab we will be creating a mobile application which replicates the functionality that we created for webapp. This mobile application can be distributed as PWA or native iOS or Android Application. This is a continuation of lab 3 exercise. If you have not completed Lab 3, please [click on this link and complete lab 3](lab3).
 
 # Mobile Application Setup
 

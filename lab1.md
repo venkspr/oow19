@@ -5,7 +5,7 @@
 
 # Introduction
 
-Build a complete web application using visual builder.
+Build a complete web application using visual builder. In this lab we will be going over the basics of how start a new project and create a web-app using the visual builder setup wizard. Once the application is setup, we will be import some sample data and go through the process of creating a product catalog listing page.ßßß
 
 # Initial Configuration Wizard
 

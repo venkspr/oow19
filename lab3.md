@@ -5,7 +5,7 @@
 {:toc}
 
 # Introduction
-In this lab we will be adding some charts to the reports page and learn about the visualization capabilities of Visual Builder. We will be consuming data from a remote rest endpoint. 
+In this lab we will be adding some charts to the reports page and learn about the visualization capabilities of Visual Builder. We will be consuming data from a remote rest endpoint. This is a continuation of lab 2 exercise. If you have not completed Lab 2, please click on [this link and complete lab 2](lab2).
 
 # Adding a bar chart visualizing annual sales
 
