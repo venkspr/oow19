@@ -9,14 +9,13 @@ Build a complete web application using visual builder.
 
 ## Initial Configuration Wizard
 
-Lets get started by logging into visual builder account. Lets get started by creating a new application. 
+Lets get started by logging into visual builder account and creating a new application. Use your oracle trial account.
 
 ### Step 1: Click **New Application**  button to start the application create wizard.
 
 ![img](assets/LabGuide100-f9530cdb-20190829225248630.png)
 
 ![image2019-8-21_9-6-20.png](assets/image2019-8-21_9-6-20-7144997.png)
-
 
 
 ### Step 2: Click on change template. Choose the sample component starter template.
@@ -64,8 +63,6 @@ One of the first step in the project will be to load the business data that the 
 
 - Product List CSV : [products.csv](assets/products.csv)
 
-Before we can import this data as business objects, the first step would be create the underlying BO's. So lets go through that process.
-
 ### Step 1 : First click on business objects icon, indicated by number 1 screen shot below.
 
 - Upon clicking on business objects a list of business objects will be displayed. Since this is a new application, there are none.
@@ -99,7 +96,7 @@ Click through the business objects import wizard.
 
 
 
-The business objects with then name Products should now be created. Click on the business object and observe the following sections
+The business objects with the name Products should now be created. Click on the business object and observe the following sections
 
 ![img](assets/image2019-8-21_20-59-19.png)
 
@@ -113,6 +110,7 @@ The business objects with then name Products should now be created. Click on the
 ------
 
 ## Adding List View to Web Application
+We will now add a list view to the products page to display the products that we just imported into the application as business object.
 
 ### Step 1 : Click on orders in the web application view
 
