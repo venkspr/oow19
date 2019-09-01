@@ -302,3 +302,5 @@ Changing the layout to card view
 The layout of the list view should change from a vertical layout to a card layout as shown in the screen shot below.
 
 ![img](assets/image2019-8-23_13-30-43.png)
+
+Congratulations, you have completed lab 3 [Click here to goto Lab 2](lab2)

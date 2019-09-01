@@ -151,3 +151,5 @@ https://apex.oracle.com/pls/apex/venks/om/orders/{order_number}
 You should now be able to see the order lines below the order header section.
 
 ![img](assets/order-details-flow.gif)
+
+Congratulations, you have completed lab 3 [Click here to goto Lab 3](lab3)
