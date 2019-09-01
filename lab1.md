@@ -1,4 +1,4 @@
-## Table of contents
+## Lab 1 : BYOL [HOL2752]
 
 * TOC
 {:toc}

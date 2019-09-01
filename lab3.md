@@ -1,5 +1,5 @@
 
-## Table of contents
+## Lab 3 : BYOL [HOL2752]
 
 * TOC
 {:toc}
