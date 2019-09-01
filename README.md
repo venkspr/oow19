@@ -19,4 +19,4 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 * [Lab3](lab3) - **Visualization Basics**
 * [Lab4](lab4) - **Mobile App**
 
-# [Click here to go get started with the lab](index)
+# [Click here to go get started with the lab](https://venkspr.github.io/oow19/)
