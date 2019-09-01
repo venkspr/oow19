@@ -119,7 +119,6 @@ We will now add a list view to the products page to display the products that we
 ### Step 2 : Scroll down in the component palette till you locate List View. Drag and drop the list view onto the application canvas.
 
 ![img](assets/ListView.gif) 
-
 ### Step 3: Click on add data 
 
 ![img](assets/image2019-8-22_21-16-18.png)
