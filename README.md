@@ -1,5 +1,5 @@
 # Open World 2019 - Oracle Visual Builder Hands-on Lab - BYOL [HOL2752]
-**PLEASE NOTE: YOU MUST BRING YOUR OWN LAPTOP (BYOL) TO PARTICIPATE IN THIS HANDS-ON LAB.**
+## PLEASE NOTE: YOU MUST BRING YOUR OWN LAPTOP (BYOL) TO PARTICIPATE IN THIS HANDS-ON LAB
 In this hands-on lab, experience productive visual development with a REST/HTML/JavaScript stack. Leverage Oracle Visual Builder to create mobile and web apps that leverage the cutting-edge UI capabilities of Oracle JavaScript Extension Toolkit (Oracle JET). Also see how to simplify development with a visual approach that drastically reduces the mundane coding of building JavaScript apps.
 
 **SPEAKERS**
