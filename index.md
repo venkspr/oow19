@@ -28,3 +28,14 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 * [Lab3](lab3) - **Visualization Basics**
 * [Lab4](lab4) - **Mobile App**
 
+### Application we are building
+
+![image-20190901174313575](image-20190901174313575.png)
+
+![image-20190901174354132](image-20190901174354132.png)
+
+
+
+![image-20190901174417868](image-20190901174417868.png)
+
+![image-20190901174452516](assets/image-20190901174452516.png) ![image-20190901174519345](image-20190901174519345.png)
