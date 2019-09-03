@@ -49,7 +49,7 @@ Since we are going to retrieve a collection of orders, ensure that Get Many is c
 ![img](assets/order-table.gif)
 
 ## Step 8: Now it is time to connect the table data to the service connection that we just defined. Refer to the flow below.
-
+ 
 ![img](assets/order-service-connection.gif)
 
 ## Step 9: Run your application. 

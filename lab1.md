@@ -167,7 +167,7 @@ Now the rating should be displayed as star component instead of a number as show
 
 ![img](assets/image2019-8-22_16-28-59.png)
 
-## Step 4: We would also like to change the price filed to have a "$" symbol. 
+## Step 4: We would also like to change the price field to have a "$" symbol. 
 
 To do that change the value to [[ '$' + $current.data.price ]] as shown below
 
