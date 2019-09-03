@@ -12,7 +12,7 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 ### SPEAKERS
 * **Michael Ferrante**, Principal Product Manager, Oracle
 * **Sherry Yu**, Senior Principal Product Manager, Oracle 
-* **Venkatesh Puliur**, Senior Principal Product Manager, Oracle
+* **Venkatesh Rangarajan Puliur**, Senior Principal Product Manager, Oracle
 
 ### CodeOne Details
 * Code One Tracks: Cloud Native, Developer Tools, Modern Web
