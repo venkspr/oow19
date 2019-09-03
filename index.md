@@ -38,4 +38,6 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 
 ![image-20190901174417868](image-20190901174417868.png)
 
-![image-20190901174452516](assets/image-20190901174452516.png) ![image-20190901174519345](image-20190901174519345.png)
+### Mobile App
+
+![image-20190902190159466](assets/image-20190902190159466.png)
