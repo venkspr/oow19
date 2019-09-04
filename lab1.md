@@ -15,12 +15,12 @@ Lets get started by logging into visual builder account and creating a new appli
 
 ![img](assets/LabGuide100-f9530cdb-20190829225248630.png)
 
-![image2019-8-21_9-6-20.png](assets/image2019-8-21_9-6-20-7144997.png)
+<img src="assets/image2019-8-21_9-6-20-7144997.png" alt="image2019-8-21_9-6-20.png" style="zoom: 33%;" />
 
 
 ## Step 2: Click on change template. Choose the sample component starter template.
 
-![image2019-8-21_19-46-45.png](assets/image2019-8-21_19-46-45-7145013.png)
+<img src="assets/image2019-8-21_19-46-45-7145013.png" alt="image2019-8-21_19-46-45.png" style="zoom:33%;" />
 
 ## Step 3: Choose Sample Component Starter Template
 
