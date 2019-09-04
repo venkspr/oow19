@@ -15,12 +15,12 @@ Lets get started by logging into visual builder account and creating a new appli
 
 ![img](assets/LabGuide100-f9530cdb-20190829225248630.png)
 
-<img src="assets/image2019-8-21_9-6-20-7144997.png" alt="image2019-8-21_9-6-20.png" style="zoom: 33%;" />
+<img src="assets/image2019-8-21_9-6-20-7144997.png" alt="image2019-8-21_9-6-20.png"  />
 
 
 ## Step 2: Click on change template. Choose the sample component starter template.
 
-<img src="assets/image2019-8-21_19-46-45-7145013.png" alt="image2019-8-21_19-46-45.png" style="zoom:33%;" />
+<img src="assets/image2019-8-21_19-46-45-7145013.png" alt="image2019-8-21_19-46-45.png"  />
 
 ## Step 3: Choose Sample Component Starter Template
 
@@ -28,7 +28,7 @@ Lets get started by logging into visual builder account and creating a new appli
 
 ## Step 4: Click Finish
 
-![img](assets/image2019-8-21_19-49-33.png)
+<img src="assets/image2019-8-21_19-49-33.png" alt="img"  />
 
 - You now have a new application, in which you can begin building pages and adding data.
 - We will begin by creating a web application
