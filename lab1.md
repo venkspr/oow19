@@ -15,7 +15,13 @@ Lets get started by logging into visual builder account and creating a new appli
 
 ![img](assets/LabGuide100-f9530cdb-20190829225248630.png)
 
+**Important : Since we are sharing the instance, please use the following convention to preventing confusion.**
+
+**Application Name: <FirstName><Last Initial>**
+
 <img src="assets/image2019-8-21_9-6-20-7144997.png" alt="image2019-8-21_9-6-20.png"  />
+
+
 
 
 ## Step 2: Click on change template. Choose the sample component starter template.
@@ -37,7 +43,7 @@ Lets get started by logging into visual builder account and creating a new appli
 
 ## Step 5: Choose navigation template
 
-Upon click on web application, you will now the ability to choose the default web application navigation template. Please choose the one with navigation items.
+Upon click on web application, you will now the ability to choose the default web application navigation template.  Please select "Tabbed" under Navigation Style
 
 ![img](assets/image2019-8-21_9-20-14.png)
 
@@ -46,6 +52,8 @@ Lets change the labels to
 - Products
 - Orders
 - Reports
+
+![image2019-9-4_19-40-51.png](assets/image2019-9-4_19-40-51-7700473.png)
 
 ## Step 6 : The application is now ready. You are presented with a complete visual development environment.  Click on the "run" icon on the top right hand side to launch the application.
 
@@ -110,7 +118,7 @@ The business objects with the name Products should now be created. Click on the 
 ## Adding List View to Web Application
 We will now add a list view to the products page to display the products that we just imported into the application as business object.
 
-## Step 1 : Click on orders in the web application view
+## Step 1 :  Click on Web Applications in the left hand bar. Under the web app name, expand flows, then expand the orders flow, then click on products-start page to open the page for editing.
 
 ![img](assets/image2019-8-22_21-3-55.png)
 
@@ -134,6 +142,14 @@ We will now add a list view to the products page to display the products that we
 ## Step 6: Choose other fields like product name, price , rating and category. Click through and hit finish.
 
 ![img](assets/image2019-8-22_10-23-34.png)
+
+**Ensure that you select the following fields since they are required for the subsequent steps **
+
+* category 
+* price
+* productName
+* rating
+* url
 
 # Styling and Composite Listview
 
