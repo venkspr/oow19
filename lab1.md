@@ -118,7 +118,7 @@ The business objects with the name Products should now be created. Click on the 
 ## Adding List View to Web Application
 We will now add a list view to the products page to display the products that we just imported into the application as business object.
 
-## Step 1 :  Click on Web Applications in the left hand bar. Under the web app name, expand flows, then expand the orders flow, then click on products-start page to open the page for editing.
+## Step 1 :  Click on Web Applications in the left hand bar. Under the web app name, expand flows, then expand the products flow, then click on products-start page to open the page for editing.
 
 ![img](assets/image2019-8-22_21-3-55.png)
 
