@@ -5,11 +5,11 @@
 
 # Introduction
 
-Build a complete web application using visual builder. In this lab we will be going over the basics of how start a new project and create a web-app using the visual builder setup wizard. Once the application is setup, we will be import some sample data and go through the process of creating a product catalog listing page.ßßß
+Build a complete web application using visual builder. In this lab we will be going over the basics of how start a new project and create a web-app using the visual builder setup wizard. Once the application is setup, we will be import some sample data and go through the process of creating a product catalog listing page.
 
 # Initial Configuration Wizard
 
-Lets get started by logging into visual builder account and creating a new application. Use your oracle trial account.
+Lets get started by logging into visual builder account and creating a new application. Use your oracle trial account. **Please use google chrome to develop the application **
 
 ## Step 1: Click **New Application**  button to start the application create wizard.
 
@@ -17,7 +17,7 @@ Lets get started by logging into visual builder account and creating a new appli
 
 **Important : Since we are sharing the instance, please use the following convention to preventing confusion.**
 
-**Application Name: <FirstName><Last Initial>**
+**Application Name:  (FirstName)(Last Initial) eg. JohnS **
 
 <img src="assets/image2019-8-21_9-6-20-7144997.png" alt="image2019-8-21_9-6-20.png"  />
 
