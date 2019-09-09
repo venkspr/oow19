@@ -30,13 +30,13 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 
 ### Application we are building
 
-![image-20190901174313575](image-20190901174313575.png)
+![image-20190901174313575](assets/image-20190901174313575.png)
 
-![image-20190901174354132](image-20190901174354132.png)
+![image-20190901174354132](assets/image-20190901174354132.png)
 
 
 
-![image-20190901174417868](image-20190901174417868.png)
+![image-20190901174417868](assets/image-20190901174417868.png)
 
 ### Mobile App
 
