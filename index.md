@@ -14,7 +14,7 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 * **Sherry Yu**, Senior Principal Product Manager, Oracle 
 * **Venkatesh Rangarajan Puliur**, Senior Principal Product Manager, Oracle
 
-### CodeOne Details
+### CodeOne DETAILS
 * Code One Tracks: Cloud Native, Developer Tools, Modern Web
 * Session Type: HOL (Hands-on Lab) Session
 * Tuesday, September 17, 12:30 PM - 02:30 PM
@@ -22,19 +22,19 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 ### CODEONE Link
 [https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752](https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752)
 
-### Visual Builder trial signup
+### VISUAL BUILDER TRIAL signup
 
 We will be using trial account for this hands on lab. You can signup for a trial account for Visual Builder by following the instructions [here](https://venkspr.github.io/vbsignup/).
 
 **Important** : Please use the email account you used to register for Oracle OpenWorld/CodeOne to be eligible for a free trial account and trial credits.
 
-### Labs
+### LABS
 * [Lab1](lab1) - **Basic Setup, BO Import & List Page based on BO**
 * [Lab2](lab2) - **Service Connection & Views based on those**
 * [Lab3](lab3) - **Visualization Basics**
 * [Lab4](lab4) - **Mobile App**
 
-### Application we are building
+###APPLICATION WE ARE BUILDING
 
 ![image-20190901174313575](assets/image-20190901174313575.png)
 
