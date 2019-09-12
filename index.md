@@ -22,6 +22,12 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 ### CODEONE Link
 [https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752](https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752)
 
+### Visual Builder trial signup
+
+We will be using trial account for this hands on lab. You can signup for a trial account for Visual Builder by following the instructions [here](https://venkspr.github.io/vbsignup/).
+
+**Important** : Please use the email account you used to register for Oracle OpenWorld/CodeOne to be eligible for a free trial account and trial credits.
+
 ### Labs
 * [Lab1](lab1) - **Basic Setup, BO Import & List Page based on BO**
 * [Lab2](lab2) - **Service Connection & Views based on those**
