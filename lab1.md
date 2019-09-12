@@ -15,7 +15,7 @@ Lets get started by logging into visual builder account and creating a new appli
 
 ![img](assets/LabGuide100-f9530cdb-20190829225248630.png)
 
-**Important : Since we are sharing the instance, please use the following convention to preventing confusion.**
+**Important : If you using a shared the instance, please use the following convention to preventing confusion between applications.**
 
 **Application Name:  (FirstName)(Last Initial) eg. JohnS **
 
