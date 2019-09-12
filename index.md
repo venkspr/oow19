@@ -22,7 +22,7 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 ### CODEONE Link
 [https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752](https://events.rainfocus.com/widget/oracle/oow19/catalogcodeone19?search=HOL2752)
 
-### VISUAL BUILDER TRIAL signup
+### VISUAL BUILDER TRIAL SIGNUP
 
 We will be using trial account for this hands on lab. You can signup for a trial account for Visual Builder by following the instructions [here](https://venkspr.github.io/vbsignup/).
 
@@ -44,6 +44,6 @@ We will be using trial account for this hands on lab. You can signup for a trial
 
 ![image-20190901174417868](assets/image-20190901174417868.png)
 
-### Mobile App
+###MOBILE APPLICATION
 
 ![image-20190902190159466](assets/image-20190902190159466.png)
