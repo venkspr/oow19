@@ -24,7 +24,7 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 
 ### VISUAL BUILDER TRIAL SIGNUP
 
-We will be using trial account for this hands on lab. You can signup for a trial account for Visual Builder by following the instructions [here](https://venkspr.github.io/vbsignup/).
+We will be using trial account for this hands on lab. You can signup for a trial account for Visual Builder by following the instructions [here](signup).
 
 **Important** : Please use the email account you used to register for Oracle OpenWorld/CodeOne to be eligible for a free trial account and trial credits.
 
