@@ -1,5 +1,3 @@
-* TOC
-{:toc}
 
 # Introduction
 
