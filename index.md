@@ -34,7 +34,7 @@ We will be using trial account for this hands on lab. You can signup for a trial
 * [Lab3](lab3) - **Visualization Basics**
 * [Lab4](lab4) - **Mobile App**
 
-###APPLICATION WE ARE BUILDING
+### APPLICATION WE ARE BUILDING
 
 ![image-20190901174313575](assets/image-20190901174313575.png)
 
@@ -44,6 +44,6 @@ We will be using trial account for this hands on lab. You can signup for a trial
 
 ![image-20190901174417868](assets/image-20190901174417868.png)
 
-###MOBILE APPLICATION
+### MOBILE APPLICATION
 
 ![image-20190902190159466](assets/image-20190902190159466.png)
