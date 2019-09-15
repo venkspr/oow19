@@ -32,26 +32,29 @@ In this lab we will be creating a mobile application which replicates the functi
 
 ![image2019-8-25_17-20-10.png](assets/image2019-8-25_17-20-10-7290694.png)
 
-## Step 2: Remove the URL field and replace it with an image
+## Step 2: Ensure you select type as image for the URL slot
 
-```
-[[ $current.data.url ]]
-```
-Delete the URL text item from the page structure
+![img](assets/image2019-8-22_10-21-21.png)
 
-![image2019-8-25_17-22-55.png](assets/image2019-8-25_17-22-55-7290694.png)
 
-## Step 3: Set the image width attribute to 100
 
-![image2019-8-25_17-24-27.png](assets/image2019-8-25_17-24-27-7290694.png)
+## Step 3: Choose currency type for pricing slot as shown below
 
-## Step 4: Drag & Drop rating gauge as shown in the screenshot below. Set the data value to [[ $current.data.rating ]]
-```
-[[ $current.data.rating ]]
-```
-Delete the text field rendering of rating.
+This will ensure that the price field is displayed as a currency instead of a number
 
-![image2019-8-25_17-27-16.png](assets/image2019-8-25_17-27-16-7290694.png)
+![image-20190914224140183](assets/image-20190914224140183.png)
+
+## Step 4: Choose rating type for rating slot as shown below
+
+This will display a rating gauge instead of a number for rating.
+
+![image-20190914224321258](assets/image-20190914224321258.png)
+
+## 
+
+## Step 5: Set the image width attribute to 100
+
+![image-20190914230046776](assets/image-20190914230046776.png)
 
 ## Step 5: Run the application and you should see the following in the emulator view
 

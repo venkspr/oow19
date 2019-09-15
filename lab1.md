@@ -137,57 +137,40 @@ We will now add a list view to the products page to display the products that we
 
 ## Step 5 : Bind variables to the slots in the list view. Add URL to slot one. You can do that by clicking on the checkbox or dragging it into that slot. Since we want this to be displayed an an image, click on image from the drop down as indicated.
 
+**Ensure that you select the following fields since they are required for the subsequent steps **
+
+- Slot 1: url - type image 
+- Slot 2 : productName -type text
+- Slot 3: price - type currency
+- Slot 4: rating -type rating gauge
+
 ![img](assets/image2019-8-22_10-21-21.png)
 
 ## Step 6: Choose other fields like product name, price , rating and category. Click through and hit finish.
 
 ![img](assets/image2019-8-22_10-23-34.png)
 
-**Ensure that you select the following fields since they are required for the subsequent steps **
 
-* category 
-* price
-* productName
-* rating
-* url
 
-# Styling and Composite Listview
+## Step 7: Choose currency type for pricing slot as shown below
 
-We want to display the image instead of the URL in the list view. So once you are back in visual designer , search for image in the component palette 
+This will ensure that the price field is displayed as a currency instead of a number
 
-## Step1: Drag and Drop image from the component palette into the canvas, right above the URL item. Copy the URL data and bind that to the Source URL under the image as shown in the gif animation below.
+![image-20190914224140183](assets/image-20190914224140183.png)
 
-Set the image width to 100. URL To : [[ $current.data.url ]]
+## Step 8: Choose rating type for rating slot as shown below
 
-Delete the Text entry for url, since we don't need that any longer.
+This will display a rating gauge instead of a number for rating.
 
-Run the page and ensure that it is rendering properly.
+![image-20190914224321258](assets/image-20190914224321258.png)
 
-![img](assets/IMage_list_view.gif)
+## Step 8: Set the image display size
 
-Hit run on the top right hand side of the page to view how the page renders after making this change.
+By default the image size for the products is 32 pixels. We want the image size to be larger. Click on image from the page structure and set the width and height of the image to 100
 
-![img](assets/image2019-8-22_16-23-3.png)
+![image-20190914225415911](assets/image-20190914225415911.png)
 
-## Step 2: Changing the rating display to a rating component. 
-
-Instead of displaying the rating as a number, we can use the built in rating gauge component to display it as star rating. In order to do that, drag the rating component from the component and drag it above the rating text field.
-
-![img](assets/rating.gif)
-
-## Step 3: Set data value for rating gauge to [[ $current.data.rating ]]
-
-![img](assets/image2019-8-22_16-27-48.png)
-
-Now the rating should be displayed as star component instead of a number as shown below.
-
-![img](assets/image2019-8-22_16-28-59.png)
-
-## Step 4: We would also like to change the price field to have a "$" symbol. 
-
-To do that change the value to [[ '$' + $current.data.price ]] as shown below
-
-![img](assets/image2019-8-22_16-30-33.png)
+Congragulations ! You have build your first page. Click on run button to see how the page is rendered.
 
 # Adding an edit page to edit the product listing
 
