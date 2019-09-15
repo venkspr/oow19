@@ -113,9 +113,8 @@ The business objects with the name Products should now be created. Click on the 
 - EndPoints : Rest Endpoints for the BO that were automatically created
 - Data : Data Browser to view the data in the BO
 
-------
-
 ## Adding List View to Web Application
+
 We will now add a list view to the products page to display the products that we just imported into the application as business object.
 
 ## Step 1 :  Click on Web Applications in the left hand bar. Under the web app name, expand flows, then expand the products flow, then click on products-start page to open the page for editing.
@@ -146,19 +145,15 @@ We will now add a list view to the products page to display the products that we
 
 ![img](assets/image2019-8-22_10-21-21.png)
 
-## Step 6: Choose other fields like product name, price , rating and category. Click through and hit finish.
-
-![img](assets/image2019-8-22_10-23-34.png)
 
 
-
-## Step 7: Choose currency type for pricing slot as shown below
+## Step 6: Choose currency type for pricing slot as shown below
 
 This will ensure that the price field is displayed as a currency instead of a number
 
 ![image-20190914224140183](assets/image-20190914224140183.png)
 
-## Step 8: Choose rating type for rating slot as shown below
+## Step 7: Choose rating type for rating slot as shown below
 
 This will display a rating gauge instead of a number for rating.
 
