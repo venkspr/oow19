@@ -11,6 +11,10 @@ Build a complete web application using visual builder. In this lab we will be go
 
 Lets get started by logging into visual builder account and creating a new application. Use your oracle trial account. **Please use google chrome to develop the application **
 
+**If you couldn't signup for Oracle Trial Account please use the following enviornment **
+
+oowlabenv
+
 ## Step 1: Click **New Application**  button to start the application create wizard.
 
 ![img](assets/LabGuide100-f9530cdb-20190829225248630.png)
@@ -21,18 +25,15 @@ Lets get started by logging into visual builder account and creating a new appli
 
 <img src="assets/image2019-8-21_9-6-20-7144997.png" alt="image2019-8-21_9-6-20.png"  />
 
+## Step 2: Choose appropiate application name
 
 
 
-## Step 2: Click on change template. Choose the sample component starter template.
+![image-20190916164812526](assets/image-20190916164812526.png)
 
-<img src="assets/image2019-8-21_19-46-45-7145013.png" alt="image2019-8-21_19-46-45.png"  />
 
-## Step 3: Choose Sample Component Starter Template
 
-![img](assets/image2019-8-21_9-17-42.png)
-
-## Step 4: Click Finish
+## Step 3: Click Finish
 
 <img src="assets/image2019-8-21_19-49-33.png" alt="img"  />
 
@@ -41,7 +42,7 @@ Lets get started by logging into visual builder account and creating a new appli
 
 ![img](assets/image2019-8-21_19-52-52.png)
 
-## Step 5: Choose navigation template
+## Step 4: Choose navigation template
 
 Upon click on web application, you will now the ability to choose the default web application navigation template.  Please select "Tabbed" under Navigation Style
 
@@ -55,7 +56,7 @@ Lets change the labels to
 
 ![image2019-9-4_19-40-51.png](assets/image2019-9-4_19-40-51-7700473.png)
 
-## Step 6 : The application is now ready. You are presented with a complete visual development environment.  Click on the "run" icon on the top right hand side to launch the application.
+## Step 5 : The application is now ready. You are presented with a complete visual development environment.  Click on the "run" icon on the top right hand side to launch the application.
 
 ![img](assets/image2019-8-21_19-56-20.png)
 
