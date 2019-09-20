@@ -24,9 +24,9 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 
 ### VISUAL BUILDER TRIAL SIGNUP
 
-We will be using trial account for this hands on lab. You can signup for a trial account for Visual Builder by following the instructions [here](signup).
+**We will be using trial account for this hands on lab. Please use the trial account that you signed up for during oracle open world to get started with this lab.**
 
-**Important** : Please use the email account you used to register for Oracle OpenWorld/CodeOne to be eligible for a free trial account and trial credits.
+Instructions are for Oracle Visual Builder version : **19.3.1**
 
 ### LABS
 * [Lab1](lab1) - **Basic Setup, BO Import & List Page based on BO**
