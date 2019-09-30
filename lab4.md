@@ -38,6 +38,8 @@ Now we will set the fetch size to 25 and max-count to 50. Refer to the screen sh
 1. Set the scroll policy fetch size to 25
 2. Set the scroll policy max fetch size to 50
 
+Since this is a mobile application we want to limit the network traffic to ensure good application performance and low bandwidth use.
+
 ![2019-09-30 at 12.00 PM](assets/2019-09-30%20at%2012.00%20PM.png)
 
 ## Step 2 : Map the list view on the products page to the products business object
