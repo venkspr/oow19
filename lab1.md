@@ -126,6 +126,8 @@ We will now add a list view to the products page to display the products that we
 
 ![img](assets/ListView.gif) 
 
+## Step 3: Setting the scroll policy
+
 We will now set the scroll policy of the list view. This is to limit the number of records the listview fetches from the rest endpoint. This is important when working with large data sets.
 
 1. Click on All
@@ -140,19 +142,19 @@ We will now set the scroll policy of the list view. This is to limit the number 
 
 ![2019-09-30 at 11.52 AM](assets/2019-09-30%20at%2011.52%20AM.png)
 
-## Step 3: Click on add data 
+## Step 4: Click on add data 
 
 Now click on the quick start icon and then click on the add data wizard
 
 ![img](assets/image2019-8-22_21-16-18.png)
 
-## Step 4: Choose the business object that we just created
+## Step 5: Choose the business object that we just created
 
 ![img](assets/image2019-8-21_21-11-33.png)
 
 ![img](assets/image2019-8-21_21-12-27.png)
 
-## Step 5 : Bind variables to the slots in the list view. Add URL to slot one. You can do that by clicking on the checkbox or dragging it into that slot. Since we want this to be displayed an an image, click on image from the drop down as indicated.
+## Step 6 : Bind variables to the slots in the list view. Add URL to slot one. You can do that by clicking on the checkbox or dragging it into that slot. Since we want this to be displayed an an image, click on image from the drop down as indicated.
 
 **Ensure that you select the following fields since they are required for the subsequent steps **
 
@@ -165,19 +167,19 @@ Now click on the quick start icon and then click on the add data wizard
 
 
 
-## Step 6: Choose currency type for pricing slot as shown below
+## Step 7: Choose currency type for pricing slot as shown below
 
 This will ensure that the price field is displayed as a currency instead of a number
 
 ![image-20190914224140183](assets/image-20190914224140183.png)
 
-## Step 7: Choose rating type for rating slot as shown below
+## Step 8: Choose rating type for rating slot as shown below
 
 This will display a rating gauge instead of a number for rating.
 
 ![image-20190914224321258](assets/image-20190914224321258.png)
 
-## Step 8: Set the image display size
+## Step 9: Set the image display size
 
 By default the image size for the products is 32 pixels. We want the image size to be larger. Click on image from the page structure and set the width and height of the image to 100
 
