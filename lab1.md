@@ -138,9 +138,14 @@ We will now set the scroll policy of the list view. This is to limit the number 
 ![2019-09-30 at 11.49 AM](assets/2019-09-30%20at%2011.49%20AM.png)
 
 1. For scroll policy fetch size, set a value of 25
-2. For scroll policy max count set a value of 50
 
-![2019-09-30 at 11.52 AM](assets/2019-09-30%20at%2011.52%20AM.png)
+2. Don't set any value for scroll policy max count
+
+3. Set scroll policy options scoller to 
+
+   > [[document.documentElement]]
+
+![2019-09-30 at 1.23 PM](assets/2019-09-30%20at%201.23%20PM.png)
 
 ## Step 4: Click on add data 
 
