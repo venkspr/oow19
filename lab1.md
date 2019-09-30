@@ -128,7 +128,15 @@ We will now add a list view to the products page to display the products that we
 
 We will now set the scroll policy of the list view. This is to limit the number of records the listview fetches from the rest endpoint. This is important when working with large data sets.
 
+1. Click on All
+2. Under search enter the query "scroll"
+3. The attribute panel should now only scroll attributes as shown below
+4. Click on scroll-policy-options
+
 ![2019-09-30 at 11.49 AM](assets/2019-09-30%20at%2011.49%20AM.png)
+
+1. For scroll policy fetch size, set a value of 25
+2. For scroll policy max count set a value of 50
 
 ![2019-09-30 at 11.52 AM](assets/2019-09-30%20at%2011.52%20AM.png)
 

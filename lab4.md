@@ -27,9 +27,16 @@ In this lab we will be creating a mobile application which replicates the functi
 
 We want to limit the number of records that are fetched to ensure good performance. Especially important when working with large datasets.
 
+1. In the attribute panel for listview click on All
+2. Input the query parameter "scroll" for seach. This should restrict the attributes to scroll policy options
+3. Now click on the arrow > next to scroll-policy-options 
+
 ![2019-09-30 at 11.57 AM](assets/2019-09-30%20at%2011.57%20AM.png)
 
 Now we will set the fetch size to 25 and max-count to 50. Refer to the screen shot below
+
+1. Set the scroll policy fetch size to 25
+2. Set the scroll policy max fetch size to 50
 
 ![2019-09-30 at 12.00 PM](assets/2019-09-30%20at%2012.00%20PM.png)
 
