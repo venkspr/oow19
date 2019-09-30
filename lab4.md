@@ -17,13 +17,23 @@ In this lab we will be creating a mobile application which replicates the functi
 
 ![image2019-8-25_17-13-21.png](assets/image2019-8-25_17-13-21-7290694.png)
 
-## Step 3: Choose page template list
+## Step 3: Choose page template list for product page
 
 ![image2019-8-25_17-14-24.png](assets/image2019-8-25_17-14-24-7290694.png)
 
 # Products page 
 
-## Step 1 : Map the list view on the products page to the products business object
+## Step 1: Set the scroll policy to limit the number of records the list view fetches
+
+We want to limit the number of records that are fetched to ensure good performance. Especially important when working with large datasets.
+
+![2019-09-30 at 11.57 AM](assets/2019-09-30%20at%2011.57%20AM.png)
+
+Now we will set the fetch size to 25 and max-count to 50. Refer to the screen shot below
+
+![2019-09-30 at 12.00 PM](assets/2019-09-30%20at%2012.00%20PM.png)
+
+## Step 2 : Map the list view on the products page to the products business object
 
 
 ![image2019-8-25_17-18-43.png](assets/image2019-8-25_17-18-43-7290694.png)
@@ -32,19 +42,19 @@ In this lab we will be creating a mobile application which replicates the functi
 
 ![image2019-8-25_17-20-10.png](assets/image2019-8-25_17-20-10-7290694.png)
 
-## Step 2: Ensure you select type as image for the URL slot
+## Step 3: Ensure you select type as image for the URL slot
 
 ![img](assets/image2019-8-22_10-21-21.png)
 
 
 
-## Step 3: Choose currency type for pricing slot as shown below
+## Step 4: Choose currency type for pricing slot as shown below
 
 This will ensure that the price field is displayed as a currency instead of a number
 
 ![image-20190914224140183](assets/image-20190914224140183.png)
 
-## Step 4: Choose rating type for rating slot as shown below
+## Step 5: Choose rating type for rating slot as shown below
 
 This will display a rating gauge instead of a number for rating.
 
@@ -52,11 +62,11 @@ This will display a rating gauge instead of a number for rating.
 
 ## 
 
-## Step 5: Set the image width attribute to 100
+## Step 6: Set the image width attribute to 100
 
 ![image-20190914230046776](assets/image-20190914230046776.png)
 
-## Step 5: Run the application and you should see the following in the emulator view
+## Step 7: Run the application and you should see the following in the emulator view
 
 ![image2019-8-25_17-29-46.png](assets/image2019-8-25_17-29-46-7290694.png)
 
