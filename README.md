@@ -5,7 +5,7 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 **SPEAKERS**
 * Michael Ferrante, Principal Product Manager, Oracle
 * Sherry Yu, Senior Principal Product Manager, Oracle 
-* Venkatesh Puliur, Senior Principal Product Manager, Oracle
+* Venkatesh Rangarajan, Senior Principal Product Manager, Oracle
 * Code One Tracks: Cloud Native, Developer Tools, Modern Web
 * Session Type: HOL (Hands-on Lab) Session
 * Tuesday, September 17, 12:30 PM - 02:30 PM
