@@ -3,7 +3,7 @@ description: Oracle Visual Builder Hands-on Lab - BYOL [HOL2752]
 theme: jekyll-theme-dinky
 github:
   zip_url: http://example.com/download.zip
-  trial_url: https://venkspr.github.io/vbsignup/
+  trial_url: vbsignup
   lab1_url: lab1
   lab2_url: lab2
   lab3_url: lab3
