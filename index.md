@@ -26,9 +26,7 @@ In this hands-on lab, experience productive visual development with a REST/HTML/
 
 **We will be using trial account for this hands on lab. Please use the trial account that you signed up for during oracle open world to get started with this lab.**
 
-[Follow the instructions listed here to signup for Visual Builder Trial account. ](https://venkspr.github.io/vbsignup/)
-
-https://venkspr.github.io/vbsignup/
+[Follow the instructions listed here to signup for Visual Builder Trial account. ](/signup)
 
 Instructions are for Oracle Visual Builder version : **19.3.1**
 
