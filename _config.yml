@@ -3,10 +3,9 @@ description: Oracle Visual Builder Hands-on Lab - BYOL [HOL2752]
 theme: jekyll-theme-dinky
 github:
   zip_url: http://example.com/download.zip
-  trial_url: vbsignup
+  trial_url: signup
   lab1_url: lab1
   lab2_url: lab2
   lab3_url: lab3
   lab4_url: lab4
   home_url: index
-
